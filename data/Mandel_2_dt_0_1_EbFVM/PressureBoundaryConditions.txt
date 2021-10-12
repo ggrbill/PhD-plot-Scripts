@@ -1,0 +1,15 @@
+NEUMANN Boundary#2{
+	type NULL
+}
+
+NEUMANN Boundary#1{
+	type NULL
+}
+
+DIRICHLET  Boundary#3{
+	type NULL
+}
+
+NEUMANN Boundary#4{
+	type NULL
+}
