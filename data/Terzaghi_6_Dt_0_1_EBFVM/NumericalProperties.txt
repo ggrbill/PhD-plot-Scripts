@@ -1,0 +1,7 @@
+Property Numerical {
+	Time_Step 0.1
+	Final_time 4000.0
+	time_step_skip 249
+}
+
+Numerical_method EBFVM

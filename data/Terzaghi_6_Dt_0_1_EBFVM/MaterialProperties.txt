@@ -1,0 +1,18 @@
+FluidProperties OneFluid{
+	Compressibility 3.030303030303030303030303030E-10
+	Viscosity 0.001
+}
+
+TwoRegions OFF
+
+RockProperties Region0{
+	Compressibility		2.7777777777777777778E-11
+	Biot_Coefficient 	0.777777777777777778
+	
+	Undrained_Poisson	0.20
+	Poisson_Coefficient 	0.20
+	Shear_Modulus 		6E+09
+	
+	Porosity		0.19
+	Permeability		1.9E-15
+}

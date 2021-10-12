@@ -1,0 +1,41 @@
+grids_path ..\..\workspace\grids\Column_1x6_2_regions
+
+grids_list X {
+		1 Column_46_elements
+		1 Column_91_elements
+		1 Column_155_elements
+		1 Column_168_elements
+		1 Column_306_elements
+		1 Column_602_elements
+	}
+
+displacement_solver_tol 1.0e-16
+
+pressure_solver_tol 1.0e-16
+
+iteration_tol 1.0e-9
+
+max_number_of_iteration 300
+
+pressure_relaxation_factor 1.0
+
+
+save_analytical_pressure ON
+
+save_analytical_udisp ON
+
+save_analytical_vdisp ON
+
+save_numerical_pressure ON
+
+save_numerical_udisp ON
+
+save_numerical_vdisp ON
+
+graph_vtop_vs_time ON
+
+graph_pbottom_vs_time ON
+
+graph_ydir_vs_vdisp ON
+
+graph_ydir_vs_pressure ON
